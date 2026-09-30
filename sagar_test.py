@@ -24,6 +24,11 @@ else:
     print("Button disabled")
 login_button.click()
 time.sleep(5)
+# to handle alert we switch to alert box 
+alert=driver.switch_to.alert
+print(alert.text)
+alert.accept()
+time.sleep(2)
 
 driver.quit()
 

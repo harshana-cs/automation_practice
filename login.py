@@ -31,6 +31,6 @@ else:
 login_button.click()
 time.sleep(5)
 
-driver.quit()
+
 
 # relative=//*[@id="user-name"]
