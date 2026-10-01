@@ -3,7 +3,8 @@ import time
 from selenium.webdriver.common.by import By
 
 driver=webdriver.Edge()
-driver.get("https://sagar-test-qa.vercel.app/")
+url="https://sagar-test-qa.vercel.app/"
+driver.get(url)
 time.sleep(5)
 driver.maximize_window()
 time.sleep(5)
